@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>推し愛レベル診断 #いい推しの日</title>
+<!-- シェアされたときの見た目（OGP） -->
+<meta property="og:title" content="推し愛レベル診断 💖 #いい推しの日">
+<meta property="og:description" content="推しの名前を入れるだけ！あなたの推し愛レベルを診断します">
+<meta name="twitter:card" content="summary">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <h1>💖 推し愛レベル診断</h1>
+  <p class="sub">11月4日は #いい推しの日</p>
+  <input id="oshi" placeholder="推しの名前を入力" autofocus maxlength="20">
+  <input id="me" placeholder="あなたのニックネーム" maxlength="20">
+  <button id="go">診断する！</button>
+  <section id="result" hidden>
+    <div id="level"></div>
+    <div id="title"></div>
+    <p id="msg"></p>
+    <a id="share" target="_blank">𝕏 でシェアする</a>
+  </section>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

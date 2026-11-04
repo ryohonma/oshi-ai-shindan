@@ -1,0 +1,15 @@
+body{margin:0;min-height:100vh;display:grid;place-items:center;
+  font-family:"Noto Sans CJK JP",sans-serif;
+  background:linear-gradient(135deg,#ff9ac9,#a58bff,#7fd8ff);}
+.card{background:#fffc;border-radius:24px;padding:32px;width:min(420px,90vw);
+  text-align:center;box-shadow:0 10px 40px #0003;}
+h1{margin:0;color:#e0458f}
+.sub{color:#777;margin:4px 0 20px}
+input{display:block;width:100%;box-sizing:border-box;font-size:18px;
+  padding:12px;margin:8px 0;border:2px solid #f3b6d4;border-radius:12px}
+button{font-size:20px;padding:12px 32px;margin-top:12px;border:0;border-radius:99px;
+  background:#e0458f;color:#fff;cursor:pointer}
+#level{font-size:64px;font-weight:900;color:#e0458f;margin-top:20px}
+#title{font-size:24px;font-weight:700}
+#share{display:inline-block;margin-top:12px;padding:10px 24px;border-radius:99px;
+  background:#000;color:#fff;text-decoration:none}
